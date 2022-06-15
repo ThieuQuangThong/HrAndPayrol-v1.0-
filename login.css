@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-size: cover;
+    height: 700px;
+    background-color: #a0b3c3;
+    display: block;
+}
+.login{
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.login-tittle{
+    font-size: 64px;
+    
+    color: white;
+    display: block;
+}
+.login-accout{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.accout-icon span img{
+    width: 250px;
+}
+.accout{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.accout input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     box-sizing: border-box;
+}
+.accout input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.accout button{
+    width: 50%;
+    background-color: #344a5e;
+    color: white;
+    padding: 14px 20px;
+    margin: 16px 0;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+}
+.accout button:hover{
+    background-color: #45a049;
+}
+.foot{
+    background-color: #344a5e;
+    height: 100px;
+}

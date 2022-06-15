@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container1 {
+  width: 100%;
+  display: block;
+}
+.navbar {
+  width: 100%;
+  display: block;
+  background-color: #344a5e;
+}
+.navbar ul {
+  display: block;
+}
+.navbar > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 5px 5px;
+  text-align: center;
+}
+.navbar ul li:first-child {
+  font-size: 50px;
+  border: none;
+  margin-left: 16px;
+}
+.navbar ul li.progress-bar {
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  padding: 0;
+  width: 20%;
+  height: 25px;
+  border: 2px solid pink;
+  /* background: #ccc; */
+  border-radius: 15px;
+  box-sizing: content-box;
+}
+.navbar ul li.progress-bar .progress {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #86ff8b;
+  animation: progress-animation 5s forwards;
+}
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+.navbar ul li:last-child {
+  color: white;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  font-size: 43px;
+  border: none;
+  padding-top: 10px;
+}
+h3,
+a {
+  color: rgb(16, 191, 235);
+  text-align: center;
+  text-emphasis: none;
+}
+.item-content {
+  display: flex;
+  justify-content: space-around;
+  height: 377px;
+  margin-bottom: 50px;
+}
+.schedule {
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid;
+  display: block;
+  display: flex;
+  /* display: inline-block; */
+}
+.wholesales {
+  width: 45%;
+}
+.calender {
+  width: 65%;
+  /* float: left; */
+}
+.image img {
+  width: 30%;
+}
+.event {
+  padding-top: 50px;
+  padding-right: 20px;
+  width: 35%;
+}
+
+.tableinfo table {
+  width: 51%;
+  margin: 10px auto;
+}

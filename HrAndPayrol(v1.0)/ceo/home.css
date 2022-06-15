@@ -1,0 +1,91 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  body {
+    background-color: rgba(160, 179, 195, 1);
+  }
+  .container {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    display: block;
+    background-color: #344a5e;
+    padding: 6px 4px 4px 4px;
+    font-size: 14px;
+  }
+  .navbar ul {
+    display: block;
+    border: 5px;
+  }
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 5px;
+  }
+  .navbar ul li a {
+    color: white;
+  }
+  .navbar ul li a:hover {
+    color: #3e3e3e;
+  }
+  .navbar ul li:first-child {
+    font-size: 50px;
+    border: none;
+    margin-left: 16px;
+  }
+  .navbar p:first-child {
+    font-size: 20px;
+  }
+  
+  .navbar p:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 0px;
+  }
+  .navbar ul li:last-child {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    font-size: 43px;
+    border: none;
+    padding-top: 20px;
+  }
+  .homeChart {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .chart {
+    width: 30%;
+    flex: 1 1 1;
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    border: 2px solid greenyellow;
+    background-color: white;
+  }
+  .chart .bigChart :hover {
+    box-shadow: 5px 0px 20px #3e3e3e;
+  }
+  .chart .bigChart {
+    width: 100%;
+  }
+  .chart .smallChart {
+    display: flex;
+    justify-content: space-around;
+  }
+  .chart .smallChart .pieChart {
+    width: 50%;
+  }
+  
